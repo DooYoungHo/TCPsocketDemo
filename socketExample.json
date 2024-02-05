@@ -1,0 +1,36 @@
+{
+    "External" :
+    [{
+        "Contents" : "TCP/IP",
+        "Type" : "Server",
+        "Ip"   : "192.168.219.11",
+        "Port" : "8500"
+    }],
+    "Internal" :
+    [{
+        "Contents" : "TCP/IP",
+        "Type" : "Server",
+        "Ip"   : "192.168.219.150",
+        "Port" : "9000"
+    },
+    {
+        "Contents" : "Serial",
+        "Type" : "Client",
+        "Ip"   : "192.168.111.130",
+        "Port" : "dev/tty/1",
+        "Baudrate" : 9600
+    },
+    {
+        "Contents" : "Serial",
+        "Type" : "Client",
+        "Ip"   : "192.168.219.11",
+        "Port" : "dev/tty/0",
+        "Baudrate" : 115200
+    },
+    {
+        "Contents" : "TCP/IP",
+        "Type" : "Client",
+        "Ip"   : "192.168.219.123",
+        "Port" : "8500"
+    }]
+}
